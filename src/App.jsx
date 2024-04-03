@@ -8,18 +8,24 @@ function App () {
   const [ x, setX ] = useState(1)
   const [ y, setY ] = useState(2)
   const [ msg, setMsg ] = useState("none")
-  const [ game, setGame ] =useState("block")
+  const [ game, setGame ] = useState("block")
 
-
-  function changeScore() {
+  
+  
+  function checkWinner(score) {
     if (score >= 100) {
       setGame("none")
       setMsg("block")
     }
+  }
+  
+  function changeScore() {
     if (incrementor === `+${y}`) {
       setScore(score + y)
+      checkWinner(score + y)
     } else {
       setScore(score + x)
+      checkWinner(score + x)
     }
   }
 
