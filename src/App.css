@@ -1,5 +1,32 @@
-/* Your code here! */
 main {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
   margin: 25px auto;
   width: 50%;
+  text-align: center;
+
+  .restart {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 45%;
+  }
+
+  .add {
+    width: 40px;
+    height: 30px;
+    margin-left: 46%;
+  }
+
+  .pay10 {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 34%;
+  }
+
+  .winner{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
 }
+
