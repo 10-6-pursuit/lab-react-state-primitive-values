@@ -24,8 +24,8 @@ function App () {
       return (
         <main className="winner">
         <h1>Current Score: {counter} </h1>
-        <h2>YOU WON!</h2>
-        <button className="restart" onClick={restart}> Play again </button>
+        <h2>YOU WIN!</h2>
+        <button className="restart" onClick={restart}> Play again? </button>
       </main>
       )
     }
