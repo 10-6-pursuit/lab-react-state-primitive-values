@@ -6,6 +6,7 @@ function App () {
 
   const [counter, setCounter] = useState(0);
   const [counter2, setCounter2] = useState(1);
+  const currentScore = "Current Score: " + counter;
 
     function add (){
       setCounter(counter+counter2)
@@ -23,7 +24,7 @@ function App () {
     if(counter > 99){
       return (
         <main className="winner">
-        <h1>Current Score: {counter} </h1>
+        <h1> { currentScore } </h1>
         <h2>YOU WIN!</h2>
         <button className="restart" onClick={restart}> Play again? </button>
       </main>
@@ -38,7 +39,7 @@ function App () {
 
     return (
       <main>
-        <h1>Current Score: {counter} </h1>
+        <h1> { currentScore } </h1>
         <button className="add" onClick={add}>{counter2}+</button>
         <button className="pay10" onClick={sustractTen}>Pay 10 pts to change from +{counter2} to {counter2 + 1}+</button>
       </main>
