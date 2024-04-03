@@ -32,7 +32,7 @@ function App () {
       return (
         <div className="winningMessage">
           <h2>You Win!</h2>
-          <button onClick={resetCounter}>Play again?</button>
+          <button onClick={resetCounter}>Play again</button>
         </div>
       )
     } else return show();
