@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Main() {
-  let [score, setScore] = useState(98);
+  let [score, setScore] = useState(0);
   let [counter, setCounter] = useState(1);
   let [buttonText, setButtonText] = useState(
     'Pay 10 points to change from +1 to +2'
