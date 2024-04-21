@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
+import Main from "./Components/Main";
 
-function App () {
+function App() {
     return (
-      <main>
-        <p>React State Lab</p>
-      </main>
+      <Main/>
     );
 }
 
