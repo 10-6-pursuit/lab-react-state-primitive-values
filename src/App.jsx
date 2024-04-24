@@ -25,11 +25,11 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Clicker Game</h1>
+      <h1>Useless Clicker Game</h1>
       <p>Current Score: {score}</p>
-      <button onClick={handleClick}>+{incrementor}</button>
+      <button id='this-btn' onClick={handleClick}>+{incrementor}</button>
       <br />
-      <button onClick={handleUpgrade}>Pay 10 points to change from +{incrementor} to +{incrementor + 1}</button>
+      <button id='that-btn' onClick={handleUpgrade}>Pay 10 points to change from +{incrementor} to +{incrementor + 1}</button>
       {score >= 100 && (
         <div>
           <h2>You Win!</h2>

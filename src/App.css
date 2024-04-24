@@ -1,31 +1,50 @@
-/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 
 .container {
   max-width: 100%;
   padding: 20px;
   text-align: center;
+  font-family: "Bitter";
 }
 
-button {
+#this-btn {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 15px 30px;
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #6047a4;
+  color: white;
+  border: 5px solid #342759;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+#that-btn {
   margin-top: 20px;
   padding: 15px 30px;
   font-size: 20px;
   cursor: pointer;
-  background-color: #4CAF50;
+  background-color: #6047a4;
   color: white;
-  border: none;
+  border: 5px solid #342759;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #45a049;
+#that-btn:hover, #this-btn:hover {
+  cursor: pointer;
+  background-color: #6047a487;
 }
 
-h1 {
-  color: #333;
-}
-
-h2 {
-  color: #4CAF50;
+p {
+  color: white;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
 }
