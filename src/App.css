@@ -1,18 +1,25 @@
+/* styles.css */
+
 .container {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px;
   text-align: center;
 }
 
 button {
-  margin-top: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
   cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #ddd;
+  background-color: #45a049;
 }
 
 h1 {
@@ -20,5 +27,5 @@ h1 {
 }
 
 h2 {
-  color: green;
+  color: #4CAF50;
 }
