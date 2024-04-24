@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
 
 function App() {
   const [score, setScore] = useState(0);
@@ -27,13 +27,19 @@ function App() {
     <div className="container">
       <h1>Useless Clicker Game</h1>
       <p>Current Score: {score}</p>
-      <button id='this-btn' onClick={handleClick}>+{incrementor}</button>
+      <button id="this-btn" onClick={handleClick}>
+        +{incrementor}
+      </button>
       <br />
-      <button id='that-btn' onClick={handleUpgrade}>Pay 10 points to change from +{incrementor} to +{incrementor + 1}</button>
+      <button id="that-btn" onClick={handleUpgrade}>
+        Pay 10 points to change from +{incrementor} to +{incrementor + 1}
+      </button>
       {score >= 100 && (
         <div>
           <h2>You Win!</h2>
-          <button onClick={handleRestart}>Play again?</button>
+          <button id="the-other-btn" onClick={handleRestart}>
+            Play again?
+          </button>
         </div>
       )}
     </div>

@@ -33,7 +33,19 @@
   transition: background-color 0.3s ease;
 }
 
-#that-btn:hover, #this-btn:hover {
+#the-other-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #6047a4;
+  color: white;
+  border: 5px solid #342759;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#that-btn:hover, #this-btn:hover, #the-other-btn:hover {
   cursor: pointer;
   background-color: #6047a487;
 }
