@@ -1,5 +1,62 @@
-/* Your code here! */
-main {
-  margin: 25px auto;
-  width: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-family: "Bitter";
+}
+
+#this-btn {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  padding: 15px 30px;
+  font-size: 50px;
+  cursor: pointer;
+  background-color: #6047a4;
+  color: white;
+  border: 5px solid #342759;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+#that-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #6047a4;
+  color: white;
+  border: 5px solid #342759;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#the-other-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #6047a4;
+  color: white;
+  border: 5px solid #342759;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#that-btn:hover, #this-btn:hover, #the-other-btn:hover {
+  cursor: pointer;
+  background-color: #6047a487;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 10px;
+  width: max-content;
+  margin-right: auto;
+  margin-left: auto;
 }
